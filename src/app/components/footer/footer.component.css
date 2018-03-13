@@ -1,0 +1,19 @@
+ #myFooter{
+  border: 5px solid black;
+  background-color:#bbe7f7;
+}
+#footer {
+  background: #e0e0e0;
+  padding: 20px 0;
+  margin-top:20px;
+}
+#footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+#footer ul a {
+  color: #999999;
+}
+#footer .social {
+  text-align: left;
+}
