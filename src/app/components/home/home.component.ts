@@ -23,17 +23,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
      this.getFavorite();
-     this.getInfo();
   }
-  //get movie data to display on the card layout
-  getInfo(){
-    this.tmdbApiService.getPopular().subscribe(data=>{
-      this.movies=data.results;
-        },(error:any)=>{
-          console.log(error)
-        })
-  }
-  
+ 
   // Add favourite movie to  database
   addToFavorite(movie) {
     this.jsonApiService.addToFavourite(movie).subscribe((res) =>{

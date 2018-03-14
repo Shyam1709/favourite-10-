@@ -1,4 +1,15 @@
+/*css for card title*/
 .card-title{
 white-space: nowrap;
 overflow: hidden;
+}
+
+/*css for movie title*/
+h5{
+font-family: 'Fira Sans', sans-serif;
+ font-weight: bold;
+}
+/*css for card-text*/
+.card-text{
+	font-family: 'Quicksand', sans-serif;
 }

@@ -9,7 +9,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { FavouriteMoviesComponent } from './components/favourite-movies/favourite-movies.component';
-import { SearchMovieComponent } from './components/search-movie/search-movie.component';
 
 
 @NgModule({
@@ -19,7 +18,6 @@ import { SearchMovieComponent } from './components/search-movie/search-movie.com
     FooterComponent,
     HomeComponent,
     FavouriteMoviesComponent,
-    SearchMovieComponent
   ],
   imports: [
     BrowserModule,

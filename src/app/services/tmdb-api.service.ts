@@ -6,17 +6,9 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class TmdbApiService {
-private popularURL=AppConfig.movie_api;
 data:any={};
 constructor(private http: Http) {
  }
-
-//get moviedata to display on the homepage
-getPopular(){
-     return this.http.get(this.popularURL)
-     .map(data => data.json(),
-     (error: any)=>this.handleError(error));
-   }
 
 //get search movie data entered by user in search bar
    getSearch(movieName: any){

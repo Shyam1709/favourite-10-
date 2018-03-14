@@ -1,3 +1,42 @@
 {
-  "movies": []
+  "movies": [
+    {
+      "vote_count": 463,
+      "id": 345009,
+      "video": false,
+      "vote_average": 6.5,
+      "title": "Mine",
+      "popularity": 8.9028,
+      "poster_path": "/xfQV6nTH6zpvhmdcTOoBR2Q4Z2M.jpg",
+      "original_language": "en",
+      "original_title": "Mine",
+      "genre_ids": [
+        53,
+        10752
+      ],
+      "backdrop_path": "/dEJryRu1avfAiRF2jZ90Iq14TPP.jpg",
+      "adult": false,
+      "overview": "After a failed assassination attempt, a soldier finds himself stranded in the desert. Exposed to the elements, he must survive the dangers of the desert and battle the psychological and physical toll of the treacherous conditions.",
+      "release_date": "2016-10-06"
+    },
+    {
+      "vote_count": 1174,
+      "id": 11778,
+      "video": false,
+      "vote_average": 7.9,
+      "title": "The Deer Hunter",
+      "popularity": 27.673549,
+      "poster_path": "/slNJESItHPqp1CENEJQUPw8d7WE.jpg",
+      "original_language": "en",
+      "original_title": "The Deer Hunter",
+      "genre_ids": [
+        18,
+        10752
+      ],
+      "backdrop_path": "/kzRUFR2FiITeP9LMPe8j2zrC7Xv.jpg",
+      "adult": false,
+      "overview": "A group of working-class friends decides to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return.",
+      "release_date": "1978-12-08"
+    }
+  ]
 }
