@@ -7,24 +7,29 @@
 </div>
 
 <h4 class="text-center"> Total Favourite Movies Added : {{favMovies.length}}</h4>
-<h3 *ngIf="showError">{{errorMsg}}</h3>
-
+<h6 *ngIf="showError">{{errorMsg}}</h6>
+<!-- jumbotron for welcome message on home page -->
+<div class="jumbotron mt-3">
+  <h3 class="display-4">Welcome Home!</h3>
+  <p class="lead">Search your movie by entering movie in the search bar.</p>
+  <hr class="my-4">
+  <p>A great place to search your favourite movies.</p>
+</div>
 <!-- Card layout for showing searched movies-->
-<div class="container py-3" *ngFor="let movie of movies">
-   <div class="card">
-     <div class="row">
-       <div class="col-md-3">
+ <div class="container mx-0 py-3">
+   <div class="card" *ngFor="let movie of movies">
+      <div class="row">
+       <div class="col-md-5">
            <img class="img-fluid d-block" [attr.src]="movieUrl+movie.poster_path" alt="Image not found">
          </div>
-         <div class="col-md-9 px-2">
+         <div class="col-md-7 px-2">
            <div class="card-block px-2 py-3">
              <h5 class="card-title">{{movie.title}}</h5>
              <p class="card-text">Overview:&nbsp;{{movie.overview}}</p>
-             <p class="card-text"></p>
              <p class="card-text">Rating: {{movie.vote_average}}</p>
              <a class="btn btn-primary" (click)="addToFavorite(movie)" >Add to favourite</a>
            </div>
          </div>
-       </div>
      </div>
    </div>
+ </div>

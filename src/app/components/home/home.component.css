@@ -1,3 +1,10 @@
+/*css for search button */
+#search-ico{
+  width: 50px;
+  color: blue;
+  background-color: white;
+}
+
 /*css for card title*/
 .card-title{
 white-space: nowrap;
@@ -9,7 +16,31 @@ h5{
 font-family: 'Fira Sans', sans-serif;
  font-weight: bold;
 }
+
+/* css for card */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.card{
+width: 600px;
+height: 50%;
+margin-left: auto;
+margin-bottom: 22px;
+padding: 16px;
+justify-content: center;
+}
+}
+@media (min-width: 992px) {
+.card{
+width: 800px;
+height: 60%;
+margin-left: auto;
+margin-bottom: 22px;
+padding: 16px;
+justify-content: center;
+}
+ }
 /*css for card-text*/
 .card-text{
 	font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
+  max-height: 200px;
 }

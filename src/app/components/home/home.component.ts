@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
      this.getFavorite();
   }
- 
+
   // Add favourite movie to  database
   addToFavorite(movie) {
     this.jsonApiService.addToFavourite(movie).subscribe((res) =>{
@@ -52,9 +52,8 @@ export class HomeComponent implements OnInit {
     this.tmdbApiService.getSearch(this.movieSearch).subscribe(data=>{
       this.movies=data.results;
         },(error:any)=>{
-          console.log(error)
+          this.errorMsg = error._body;
+          this.showError = true;
         })
   }
     }
-
-
