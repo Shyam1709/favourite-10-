@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private tmdbApiService : TmdbApiService,
     private jsonApiService : JsonApiService) { }
-
+    public hidden=true;
   ngOnInit() {
      this.getFavorite();
   }
@@ -49,6 +49,7 @@ export class HomeComponent implements OnInit {
   }
     //get search data on search button click
    search() {
+     this.hidden=false;
     this.tmdbApiService.getSearch(this.movieSearch).subscribe(data=>{
       this.movies=data.results;
         },(error:any)=>{
