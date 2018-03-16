@@ -16,7 +16,6 @@ export class FavouriteMoviesComponent implements OnInit {
  public showError : boolean = false;
  public movieUrl=AppConfig.baseUrl;
 
-
   constructor(private jsonApiService : JsonApiService) { }
 
   ngOnInit() {
