@@ -76,27 +76,6 @@
       "release_date": "1970-09-27"
     },
     {
-      "vote_count": 74,
-      "id": 14030,
-      "video": false,
-      "vote_average": 6.8,
-      "title": "Hello, Dolly!",
-      "popularity": 5.170138,
-      "poster_path": "/6VDANRGpRb4VGo5q0anoav5CoU7.jpg",
-      "original_language": "en",
-      "original_title": "Hello, Dolly!",
-      "genre_ids": [
-        35,
-        10751,
-        10402,
-        10749
-      ],
-      "backdrop_path": "/7dk68tDxfAadbsJ4aPuMOEwbC3i.jpg",
-      "adult": false,
-      "overview": "Matchmaker, Dolly Levi takes a trip to Yonkers, New York to see the \"well-known unmarried half-a-millionaire,\" Horace Vandergelder. While there, she convinces him, his two stock clerks and his niece and her beau to go to New York City.",
-      "release_date": "1969-12-12"
-    },
-    {
       "vote_count": 9,
       "id": 20365,
       "video": false,
@@ -135,26 +114,6 @@
       "adult": false,
       "overview": "A dangerous international spy is determined to give up his high stakes life to finally build a closer relationship with his estranged wife and daughter. But first, he must complete one last mission - even if it means juggling the two toughest assignments yet: hunting down the world's most ruthless terrorist and looking after his teenage daughter for the first time in ten years, while his wife is out of town.",
       "release_date": "2014-02-14"
-    },
-    {
-      "vote_count": 236,
-      "id": 384798,
-      "video": false,
-      "vote_average": 5.3,
-      "title": "Kill Command",
-      "popularity": 8.955082,
-      "poster_path": "/nl9e5LIYMOYskBV48AcvEc8FUZi.jpg",
-      "original_language": "en",
-      "original_title": "Kill Command",
-      "genre_ids": [
-        28,
-        27,
-        878
-      ],
-      "backdrop_path": "/y1J1HN3o3zR8vRfKoJQyo3G0rb7.jpg",
-      "adult": false,
-      "overview": "Set in a near future, technology-reliant society that pits man against killing machines. Against this backdrop an elite army unit is helicoptered to a remote, off-the-grid island training facility. What starts out as a simple training exercise for Captain Bukes and his tight-knit unit, descends into a terrifying battle to the death, as the marines discover the island is overrun by an enemy that transcends the human concept of evil.",
-      "release_date": "2016-05-13"
     }
   ]
 }
